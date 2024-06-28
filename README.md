@@ -6,7 +6,7 @@ In this repository you can find code for couple of classic algorithms writen in 
 Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a weighted graph, which may represent, for example, road networks. 
 
 Example graph:
-![alt text](https://github.com/Nietoperka/algorithms/blob/main/fig3.jpg?raw=true)
+![alt text](https://github.com/Nietoperka/algorithms/blob/main/fig4.jpg?raw=true)
 
 In first lines of code you can implement the graph:
 
@@ -41,4 +41,4 @@ Process of "thinking" is visible in terminal:
 
 
 In code there is commented another example, more complex:
-![alt text](https://github.com/Nietoperka/algorithms/blob/main/fig4.jpg?raw=true)
+![alt text](https://github.com/Nietoperka/algorithms/blob/main/fig5.jpg?raw=true)
