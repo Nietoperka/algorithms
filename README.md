@@ -32,11 +32,13 @@ How it works:
 
 
 Process of "thinking" is visible in terminal:
+
 ![alt text](https://github.com/Nietoperka/algorithms/blob/main/fig1.jpg?raw=true)
-    krok - step,
-    Wierzcholki - nodes,
-    Koszt - cost,
-    Poprzednik - previous node,
+
+    krok - step
+    Wierzcholki - nodes
+    Koszt - cost
+    Poprzednik - previous node
 
 
 
