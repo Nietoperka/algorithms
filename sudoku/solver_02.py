@@ -10,25 +10,32 @@ def solver(first_numbers):
 
     print(s)
 
-def row(inp): #inp - lista z rzędem
-    print(inp)
+# def row(inp): #inp - lista z rzędem
+#     print(inp)
+#     for i in inp:
+#         if len(i)!=1:
+#             for j in inp:
+#                 if len(j)==1 and i.find(j)>=0:
+#                     print("i: ",i," j: ",j)
+#                     inp[inp.index(i)]=i.replace(j,'')
+#                     print("po: ",inp)
+#     return(inp)
+
+def row2(inp): #druga metoda
+    singles=[]
     for i in inp:
-        if len(i)!=1:
-            for j in inp:
-                if len(j)==1:
-                    print("i: ",i," j: ",j)
-                    inp[inp.index(i)]=i.replace(j,'')
-                    print("po: ",inp)
-    print(inp)
+        if len(i)==1:
+            singles.append(i)
+    for x in inp:
+        for y in singles:
+            if len(x)!=1 and x.find(y)>=0:
+                inp[inp.index(x)]=x.replace(y,'')
+    return(inp)
 
 b=["1234","2","1234","1234"]
 e=["1234","3","1234","1"]
 a=[3,0,1,2,0,2,0,0,0,0,0,0,0,3,0,1]
 solver(a)
 
-#row(b)
-row(e)
-# c="1234"
-# d="2"
-# c=c.replace(d,"")
-# print(c)
+print(e)
+print(row2(e))
