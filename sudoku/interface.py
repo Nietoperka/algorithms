@@ -43,7 +43,7 @@ def clicked():
 	r1.configure(text = "A")
 
 # button widget with red color text inside
-btn = Button(root, text = "Rozwiąż" ,activebackground="grey",
+btn = Button(root, text = "SOLVE" ,activebackground="grey",
 			fg = "black", command=clicked)
 # Set Button Grid
 btn.grid(column=10, row=10)

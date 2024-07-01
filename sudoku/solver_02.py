@@ -32,6 +32,12 @@ def row2(inp): #druga metoda
                 inp[inp.index(x)]=x.replace(y,'')
     return(inp)
 
+def split(x,nmb,sud):
+    inp=[]
+    if x==1:        #rows
+        for i in ((nmb-1)*4,nmb*4-1):
+            
+
 b=["1234","2","1234","1234"]
 e=["1234","3","1234","1"]
 a=[3,0,1,2,0,2,0,0,0,0,0,0,0,3,0,1]
