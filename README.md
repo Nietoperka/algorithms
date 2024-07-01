@@ -1,4 +1,4 @@
-#Algorytmy
+# Algorithms
 
 In this repository you can find code for couple of classic algorithms writen in Matlab.
 
