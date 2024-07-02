@@ -1,3 +1,6 @@
+
+# FOR SUDOKU 4X4    
+
 def solver(first_numbers):
     s=[]
     copy_s=[]
@@ -7,7 +10,7 @@ def solver(first_numbers):
         else:
             s.append(str(first_numbers[i]))
     copy_s=s.copy()
-    for i in range(1,4): #indexes
+    for i in range(1,4): #method
         for j in range(1,5): #nmb of row,col,sqr
             spliting=split(i,j,s)
             solving=row2(spliting[0])
