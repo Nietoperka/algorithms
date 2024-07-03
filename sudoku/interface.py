@@ -11,7 +11,7 @@ root.geometry('350x350')
 
 # adding menu bar in root window
 # new item in menu bar labelled as 'New'
-# adding more items in the menu bar 
+# adding  items in the menu bar 
 menu = Menu(root)
 item = Menu(menu)
 item.add_command(label='New')
